@@ -1,5 +1,7 @@
 Data
 Data/*
-model_norating_fmri_results/*
-model_RatingOnset_fmri_results/*
+Results
+Results/*
 figures/*
+InDevCode
+InDevCode/*
