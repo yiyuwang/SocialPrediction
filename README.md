@@ -2,11 +2,15 @@
 
 
 
-# Disentangling Prediction and Feedback in Social Brain Networks: A Predictive Processing Approach
+# The Neural Architecture of Predicting Agentic Behavior: Dissociable Systems for Mental Model Formation and Updating
+
 
 
 by Yiyu Wang, Juliet Y. Davidow, Richard D. Lane, Ajay B. Satpute  
-Available as a preprint on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658968v1)
+
+Available as a preprint on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658968v1).
+
+The relevant stimulus set is available on [this github repo](https://github.com/yiyuwang/AgentPredictionTask). 
 
 ---
 
