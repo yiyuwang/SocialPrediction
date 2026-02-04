@@ -10,7 +10,11 @@ by Yiyu Wang, Juliet Y. Davidow, Richard D. Lane, Ajay B. Satpute
 
 Available as a preprint on [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.06.10.658968v1).
 
+<<<<<<< HEAD
+The relevant stimulus set is available on [this github repo](https://github.com/yiyuwang/SocialPrediction_AnimatedShapesTest). 
+=======
 The relevant stimulus set is available on [this github repo](https://github.com/yiyuwang/AgentPredictionTask). 
+>>>>>>> 5327cb0 (split half)
 
 ---
 
