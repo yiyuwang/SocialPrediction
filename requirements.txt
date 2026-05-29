@@ -1,0 +1,16 @@
+bottleneck>=1.3.6
+ipykernel
+jupyter
+kneed
+matplotlib
+nibabel
+nilearn
+numpy
+pandas
+pingouin
+scikit-learn
+scikit-learn-extra
+scipy
+seaborn
+statsmodels
+SUITPy

@@ -12,13 +12,12 @@
 #SBATCH --array=167
 
 module load python/3.7.1
-srun python Edit_fmap_json.py ${SLURM_ARRAY_TASK_ID}
+srun python edit_fmap_json.py ${SLURM_ARRAY_TASK_ID}
 
 module load singularity
 srun run_fmriprep_fmap_reg.sh ${SLURM_ARRAY_TASK_ID}
 
 module load fsl/6.0.0
-srun organize_confounds_cluster_SP.sh ${SLURM_ARRAY_TASK_ID}
+srun organize_confounds_cluster.sh ${SLURM_ARRAY_TASK_ID}
 srun apply_transform_SP_cluster.sh ${SLURM_ARRAY_TASK_ID}
-
 
