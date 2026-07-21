@@ -150,11 +150,12 @@ def find_best_k(data, max_k: int = 10):
 
 def plot_knee_curve(data, max_k: int = 12, random_state: int = 42, title: str = "Full Sample"):
     from kneed import KneeLocator
+    from sklearn.cluster import KMeans
 
     k_values = range(1, max_k + 1)
     inertias = []
     for k in k_values:
-        kmeans = MiniBatchKMeans(n_clusters=k, random_state=random_state, n_init=10)
+        kmeans = KMeans(n_clusters=k, random_state=random_state)
         kmeans.fit(data)
         inertias.append(kmeans.inertia_)
 
